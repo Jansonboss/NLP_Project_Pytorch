@@ -2,17 +2,17 @@
 
 Some important notes about NLP :relaxed:
 
-The NLP Task is a lot differenct with CV, and NLP reserachers're working very hard to build feature extractor (`Architecture Engineering`) to make sure their architectures are capable of processing data with following features:
+The NLP Task is a lot differenct with CV, and NLP reserachers're working very hard to build feature extractor (**Architecture Engineering**) to make sure their architectures are capable of processing data with following features:
 
 - Able to process `1d input data`.
-	- eg. I love this movie. -> sentimental analysis
+	- I love this movie. -> sentimental analysis
 
 - Able to process `undefined Length` of input data.
-	- eg. I love this movie.
-	- eg. The movie I watched is shit.
+	- I love this movie.
+	- The movie I watched is shit.
 
 - Able to capture `Long term dependency`.
-	- eg. The **dog** is sitting there, and **he** is cute
+	- The **dog** is sitting there, and **he** is cute
 	- **Dog** <---> **he**
 
 - Able to recongnize `relaive position` between words is important.
